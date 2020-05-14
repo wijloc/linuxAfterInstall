@@ -20,3 +20,7 @@ snap install spotify
 
 #VSCode
 sudo snap install --classic code
+
+#Gcc
+# GNU compiler tools and the GDB debugger
+sudo apt-get install build-essential gdb
