@@ -10,3 +10,7 @@ sudo apt install vim
 
 #Insert new ssh key
 ssh-keygen -t rsa -b 4096 -C "email@domain.com"
+
+#Add to ssh-agent
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
