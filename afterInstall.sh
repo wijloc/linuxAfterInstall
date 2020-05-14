@@ -24,3 +24,5 @@ sudo snap install --classic code
 #Gcc
 # GNU compiler tools and the GDB debugger
 sudo apt-get install build-essential gdb
+# Get Started with c++
+#https://code.visualstudio.com/docs/cpp/config-wsl
