@@ -17,3 +17,6 @@ ssh-add ~/.ssh/id_rsa
 
 #Spotify
 snap install spotify
+
+#VSCode
+sudo snap install --classic code
