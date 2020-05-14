@@ -5,3 +5,5 @@ git config --global user.email "wijloc@gmail.com"
 
 git config --global user.name "Willian Oliveira"
 
+#Vim
+sudo apt install vim
