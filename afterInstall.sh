@@ -26,3 +26,6 @@ sudo snap install --classic code
 sudo apt-get install build-essential gdb
 # Get Started with c++
 #https://code.visualstudio.com/docs/cpp/config-wsl
+
+#Skype
+sudo snap install skype --classic
