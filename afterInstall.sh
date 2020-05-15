@@ -38,3 +38,6 @@ sudo apt install ubuntu-restricted-extras
 
 #CMake
 sudo apt-get install cmake
+
+#npm
+sudo apt- get install npm
