@@ -33,5 +33,8 @@ sudo snap install skype --classic
 #Minimize on toolbar click
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 
-#Ubunto Restricted Extras: codecs
+#Ubuntu Restricted Extras: codecs
 sudo apt install ubuntu-restricted-extras
+
+#CMake
+sudo apt-get install cmake
