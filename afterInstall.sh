@@ -40,4 +40,11 @@ sudo apt install ubuntu-restricted-extras
 sudo apt-get install cmake
 
 #npm
-sudo apt- get install npm
+sudo apt-get install npm
+
+#curl
+sudo apt install curl
+
+#zsh
+apt install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
