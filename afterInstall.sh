@@ -58,3 +58,6 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 
 #Install yarn
 #https://classic.yarnpkg.com/en/docs/install/#debian-stable
+
+#Instalando o docker
+#https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
