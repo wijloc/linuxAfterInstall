@@ -64,3 +64,17 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 
 #Flameshot
 apt install flameshot
+
+#DConf-Editor
+sudo apt install dconf-editor
+#Configs:
+#/org/gnome/shell/extensions/dash-to-dock/
+#/org/gnome/shell/extensions/dash-to-dock/click-action: minimize-or-previews
+#/org/gnome/shell/extensions/dash-to-dock/dash-max-icon-size: 33
+#/org/gnome/shell/extensions/dash-to-dock/dock-fixed: true
+#/org/gnome/shell/extensions/dash-to-dock/dock-position: 'BOTTOM'
+#/org/gnome/shell/extensions/dash-to-dock/middle-click-action: 'launch'
+#/org/gnome/shell/extensions/dash-to-dock/multi-monitor: true
+#/org/gnome/shell/extensions/dash-to-dock/running-indicator-style: 'DASHES'
+#/org/gnome/shell/extensions/dash-to-dock/scroll-action: 'cycle-windows'
+#/org/gnome/shell/extensions/dash-to-dock/shift-middle-click-action: 'quit'
