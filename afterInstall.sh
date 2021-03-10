@@ -27,9 +27,6 @@ sudo apt-get install build-essential gdb
 # Get Started with c++
 #https://code.visualstudio.com/docs/cpp/config-wsl
 
-#Skype
-sudo snap install skype --classic
-
 #Minimize on toolbar click
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 
