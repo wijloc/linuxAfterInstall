@@ -28,7 +28,7 @@ sudo apt-get install build-essential gdb
 #https://code.visualstudio.com/docs/cpp/config-wsl
 
 #Minimize on toolbar click
-gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
 
 #Ubuntu Restricted Extras: codecs
 sudo apt install ubuntu-restricted-extras
