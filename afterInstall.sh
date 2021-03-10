@@ -43,7 +43,7 @@ sudo apt-get install npm
 sudo apt install curl
 
 #zsh
-apt install zsh
+sudo apt install zsh
 chsh -s $(which zsh)
 
 #oh-my-zsh
