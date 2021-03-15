@@ -77,3 +77,11 @@ sudo apt install dconf-editor
 #/org/gnome/shell/extensions/dash-to-dock/running-indicator-style: 'DASHES'
 #/org/gnome/shell/extensions/dash-to-dock/scroll-action: 'cycle-windows'
 #/org/gnome/shell/extensions/dash-to-dock/shift-middle-click-action: 'quit'
+
+
+#bind flameshot to printscreen
+gsettings set org.gnome.settings-daemon.plugins.media-keys screenshot '[]'
+gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ name 'flameshot'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ command '/usr/bin/flameshot gui'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ binding 'Print'
